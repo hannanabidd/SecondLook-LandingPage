@@ -1,0 +1,214 @@
+.contactus_heading {
+  text-align: center;
+  font-family: monsimd;
+  font-weight: 600;
+  font-size: 25px;
+}
+.themebutton {
+  background: #02c4b7;
+  color: #fff;
+  padding: 13px 11px;
+  padding-right: 56px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  position: relative;
+  box-shadow: 0px 1px 5px rgb(136 135 135 / 80%);
+  display: inline-block;
+  position: relative;
+  border: none;
+  height: 15%;
+}
+.themebutton:hover {
+  background-color: #fff;
+  color: #02c4b7;
+  transition: 1s;
+}
+.contactus {
+  padding-top: 60px;
+}
+.Contact-form {
+  margin-top: 50px;
+}
+.contactus p {
+  text-align: center;
+  color: #424242;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.text_area {
+  box-shadow: 0px -1px 10px #00000033;
+  border-radius: 10px;
+  /* padding: 80px 100px 50px 100px; */
+  /* background: #fff; */
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  left: 0;
+  max-width: 925px;
+  margin: 57px auto 0 auto;
+  font-family: popi;
+  font-size: 12px;
+  color: rgb(173, 166, 166);
+  background-color: #fff;
+}
+.salogun {
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 12px;
+
+  position: absolute;
+  z-index: 933;
+}
+.input {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #777;
+  padding: 10px 16px;
+  background: #fff;
+  display: block;
+  border: 1px solid #ececec;
+  font-family: popi;
+  font-size: 12px;
+}
+.form_data {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #777;
+  padding: 10px 16px;
+  background: #fff;
+  display: block;
+  border: 1px solid #ececec;
+  width: 370px;
+  margin-bottom: 25px;
+  outline: #02b2a6;
+}
+.text_area {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  height: 435px;
+}
+.Massage_area {
+  width: 400px;
+  height: 170px;
+  color: #777;
+  padding: 10px 16px;
+  background: #fff;
+  display: block;
+  border: 1px solid #ececec;
+  width: 370px;
+  outline: #02b2a6;
+  color: #777;
+}
+.Massage_area:focus {
+  box-shadow: none;
+  border: 1px solid #48bdc5;
+}
+.form_data:focus {
+  box-shadow: none;
+  border: 1px solid #48bdc5;
+}
+.dds {
+  width: fit-content;
+  margin-top: 60px;
+  margin-left: 199px;
+  position: relative;
+}
+@media (max-width: 768.98px) {
+  .text_area {
+    flex-direction: column;
+    width: 94%;
+    height: 500px;
+    background-color: #fff;
+  }
+  .input_div1 {
+    padding-left: 30px;
+  }
+  .Massage_area {
+    width: 50%;
+    width: 90%;
+  }
+  .Contact-form {
+    margin-top: 13px;
+  }
+  .Massage {
+    padding-left: 30px;
+  }
+  .img_wrap {
+    width: "49px";
+  }
+  .form_data {
+    width: 90%;
+  }
+  .dds {
+    width: -moz-fit-content;
+    width: max-content !important;
+    margin-top: 28px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 284px;
+  }
+}
+@media (max-width: 576.98px) {
+  .first_div_footer {
+    padding-top: 80px;
+    padding-left: 25px;
+  }
+  .contactus_heading {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .contactus p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    font-family: popi;
+  }
+  .contactus {
+    padding-top: 0;
+  }
+  .salogun {
+    width: 63px;
+  }
+  .text_area {
+    width: 85%;
+  }
+  .dds {
+    margin-right: 30px;
+    margin-top: 18px;
+  }
+  .themebutton {
+    padding-right: 54px;
+  }
+  .img_wrap {
+    position: absolute;
+    right: 0px;
+    /* height: 77%; */
+    top: -1px;
+    width: 40px;
+    background: #ff6e00;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 5px 5px 0;
+    height: 49px;
+    /* z-index: 100; */
+  }
+  .img_wrap img {
+    height: 23px;
+    margin-top: 13px;
+  }
+  .main_container {
+    justify-content: start;
+  }
+  .newsletter {
+    padding-top: 40px !important;
+  }
+}

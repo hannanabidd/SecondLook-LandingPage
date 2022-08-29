@@ -1,0 +1,165 @@
+.chooseus-section {
+  position: relative;
+  /* background: #f1f2f6; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 460px;
+  padding-top: 70px;
+  flex-wrap: wrap;
+}
+.backdiv {
+  background-image: url("../../Assets/images/bgcurve.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: "1536px";
+  margin-top: 60px;
+  padding-bottom: 150px;
+}
+.chooseus-section::before {
+  content: "";
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  background: url("//scondbackgroung.svg");
+  background-size: cover;
+  z-index: -1;
+  top: -120px;
+}
+.heading3 {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  color: #0e0e0e;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 130px;
+
+  font-family: "Montserrat";
+}
+.content {
+  width: 255px !important;
+  text-align: left !important;
+  margin-top: 0px 0px !important;
+}
+/* .heading:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 120px;
+    height: 2px;
+    background: #02c4b7;
+    margin: 0 auto;
+  } */
+.chooseus-wrap {
+  background: #02b2a6;
+  color: #fff;
+  margin: 10px 0;
+  height: 380px;
+  width: 280px;
+}
+.chooseus-img {
+  height: 181px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.chooseus-img:before {
+  content: "";
+  position: absolute;
+  border-bottom: 64px solid #02b2a6;
+  border-left: 170px solid transparent;
+  border-right: 500px solid transparent;
+  width: 100%;
+  bottom: -34px;
+  left: -104px;
+}
+.chooseus-img img {
+  width: 100%;
+}
+.choose_tittle {
+  font-size: 18px;
+  color: white;
+  padding-left: 20px;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+.inner-content {
+  padding: 15px;
+  padding-bottom: 0;
+  width: 250px;
+}
+.choose_para_wrapper {
+  max-height: 120px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.choose_para_wrapper::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.choose_para_wrapper::-webkit-scrollbar-thumb {
+  background: #0e736c;
+  border-radius: 3px;
+}
+.choose_para_wrapper::-webkit-scrollbar-thumb:hover {
+  background: #02b2a6;
+}
+.choose_para_wrapper::-webkit-scrollbar-track {
+  background: #02b2a6;
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
+.chosse_para {
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.9;
+  font-family: "poppins";
+  line-height: 21px;
+  margin-right: 0;
+  font-weight: 300;
+  padding: 12px 23px;
+  overflow: hidden;
+  overflow-x: none;
+  justify-content: baseline;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media only screen and (min-width: 992px) {
+  .chooseus-section {
+    height: 0%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .backdiv {
+    background-image: url("../../Assets/images/bgcurveimg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 14%;
+    height: "1536px";
+    width: 100%;
+
+    margin-top: 60px;
+    padding-bottom: 150px;
+  }
+  .chooseus-wrap {
+    margin-bottom: 50px;
+  }
+  .chooseus-section {
+    height: 0%;
+  }
+}
+@media only screen and (max-width: 576.98px) {
+  .chooseus-section {
+    height: 0%;
+  }
+  .backdiv {
+    padding-bottom: 20px;
+  }
+}

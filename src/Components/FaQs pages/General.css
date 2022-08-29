@@ -1,0 +1,60 @@
+.general {
+  display: flex;
+  text-align: start;
+  padding-bottom: 40px;
+}
+.general_heading {
+  color: #404040;
+  font-size: 13pt;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-family: popi;
+}
+.insurance {
+  text-align: start;
+  width: 500px;
+  margin-left: 50px;
+  padding-bottom: 40px;
+}
+.general_div1 {
+  width: 600px;
+  padding: 0 25px;
+}
+.general_div2 {
+  width: 600px;
+  padding: 0 25px;
+}
+.general_para {
+  padding-bottom: 30px;
+  font-family: popi;
+  font-size: 14px;
+}
+@media only screen and (max-width: 1090px) {
+  .general_div1 {
+    width: 95%;
+  }
+  .general_div2 {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .general_div1 {
+    width: 95%;
+  }
+  .general_div2 {
+    width: 95%;
+  }
+}
+@media (max-width: 768.98px) {
+  .general_div1 {
+    width: 95%;
+  }
+  .general_div2 {
+    width: 95%;
+  }
+}
+@media (max-width: 768.98px) {
+  .general {
+    flex-direction: column;
+  }
+}

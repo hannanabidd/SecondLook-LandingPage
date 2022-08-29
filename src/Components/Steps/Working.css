@@ -1,0 +1,76 @@
+.working {
+  padding: 69px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.outr-cricle img {
+  height: 200px;
+}
+.outr-cricle {
+  max-height: 260px;
+  width: 333px;
+  margin: auto;
+  border: 3px solid #ff8122;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 3px 8px #013f8429;
+}
+.workheading {
+  text-align: center;
+  padding-top: 60px;
+  color: #0e0e0e;
+  font-family: monsi;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: monsimd;
+}
+.content {
+  width: 280px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: rgba(4, 4, 4, 40%);
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+  text-align: center !important;
+}
+.titleblack {
+  padding: 10px 0;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 20px;
+}
+.para_black {
+  color: #707070;
+
+  font-size: 16px;
+  width: 252px;
+}
+.greenarrow {
+  position: absolute;
+  margin-left: -47px;
+  margin-top: 85px;
+}
+.about_line {
+  height: 2px;
+  width: 69px;
+  margin-top: 11px;
+  background: #02c4b7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 768.98px) {
+  .cards {
+    margin-bottom: 40px;
+  }
+  .greenarrow {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+}

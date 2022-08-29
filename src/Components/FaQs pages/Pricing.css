@@ -1,0 +1,39 @@
+.pricing {
+  display: flex;
+  width: 100%;
+  text-align: start;
+  padding-bottom: 40px;
+}
+.pricing_div1 {
+  width: 800px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.pricing_div2 {
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.phone_heading {
+  color: #404040;
+  font-weight: 700;
+  font-size: 13pt;
+  padding-bottom: 13px;
+  font-family: popi;
+}
+.phone_heading1 {
+  color: #404040;
+  font-weight: 700;
+  font-size: 13pt;
+  padding-bottom: 13px;
+  font-family: popi;
+}
+.cost {
+  margin-bottom: 30px;
+}
+.analysis {
+  padding-bottom: 30px;
+}
+.video_div {
+  margin-bottom: 30px;
+}

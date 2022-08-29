@@ -1,0 +1,20 @@
+.insurance_heading {
+  color: #404040;
+  font-size: 13pt;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-family: popi;
+}
+.insurance {
+  text-align: start;
+  width: 500px;
+  margin-left: 50px;
+  padding-bottom: 40px;
+}
+@media (max-width: 576.98px) {
+  .insurance {
+    width: 78%;
+    margin-left: 0;
+    padding-left: 25px;
+  }
+}

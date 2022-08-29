@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1364px" height="95.558px" viewBox="0 0 1364 95.558" enable-background="new 0 0 1364 95.558" xml:space="preserve">
+<filter  width="1424" height="796.116" id="Path_2990" filterUnits="userSpaceOnUse" y="0" x="0">
+	<feOffset  input="SourceAlpha" dy="3"></feOffset>
+	<feGaussianBlur  result="blur" stdDeviation="10"></feGaussianBlur>
+	<feFlood  flood-opacity="0.078"></feFlood>
+	<feComposite  in2="blur" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_2990)">
+	<path id="Path_2990-2_1_" opacity="0.41" fill="#E2E4EF" enable-background="new    " d="M0,13.981c0,0,92.135,67.2,338.988,67.2
+		c246.853,0,390.779-46.579,648.425-67.2C1245.058-6.64,1364,28.093,1364,28.093v715.465H0V13.981z"/>
+</g>
+</svg>

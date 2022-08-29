@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.ortho {
+  text-align: center;
+  padding: 39px 91px;
+}
+.ortho-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.ortho_heading {
+  font-size: 25px;
+  color: #0e0e0e;
+  position: relative;
+  margin-top: 30px;
+  padding-bottom: 8px;
+  /* font-family: "Monsi"; */
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+/* .ortho_heading:after {
+  content: "";
+  position: absolute;
+  left: -94px;
+  right: 0;
+  bottom: 0;
+  width: 83px;
+  height: 2px;
+  background: #02b2a6;
+  margin: 0 auto;
+} */
+.ortho_line_div {
+  height: 2px;
+  width: 69px;
+  margin-top: 11px;
+  background: #02c4b7;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.ortho_p {
+  font-size: 16px;
+  color: #0e0e0e;
+  font-weight: 500;
+  margin: 20px 0 40px 0;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.absoluteimg {
+  position: absolute;
+  left: -49px;
+  margin-top: -250px;
+}
+
+@media (max-width: 576.98px) {
+  /* .ortho_heading:after {
+    content: "";
+    position: absolute;
+    left: -4px;
+    right: 0;
+    bottom: 0;
+    width: 83px;
+    height: 2px;
+    background: #02b2a6;
+    margin: 0 auto;
+  } */
+  .ortho {
+    padding: 0;
+  }
+
+  .ortho_heading {
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 16px;
+  }
+  .ortho_p {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .heading3 {
+    font-size: 24px;
+  }
+  /* .chosse_para {
+      padding: 18px 10px;
+    } */
+  .chooseus-wrap {
+    width: 300px;
+  }
+  .chosse_para {
+    font-size: 13px;
+    color: #fff;
+    opacity: 0.7;
+    font-family: monsi;
+    line-height: 21px;
+    margin-right: 0;
+    padding: 12px 10px;
+  }
+  .about_heading {
+    font-size: 16px !important;
+    text-align: center;
+  }
+}

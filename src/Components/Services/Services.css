@@ -1,0 +1,69 @@
+.services-section {
+  background: transparent linear-gradient(180deg, #02c4b7 0%, #01625c 100%) 0%
+    0% no-repeat padding-box;
+  padding: 31px 0;
+}
+.inner-content {
+  text-transform: uppercase;
+  letter-spacing: 1.51px;
+  display: flex;
+  align-items: left;
+}
+.service-content {
+  padding-top: 10px;
+  /* padding-left: 10px; */
+  text-align: left;
+}
+
+.backgroundclr {
+  background: transparent linear-gradient(180deg, #02c4b7 0%, #01625c 100%) 0%
+    0% no-repeat padding-box;
+  padding: 14px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.criclediv {
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 10px;
+}
+.inner-conntent {
+  display: flex;
+}
+.criclediv img {
+  height: 54px;
+  margin: auto;
+}
+.headingg {
+  font-family: "poppins";
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.service_paraghaph {
+  color: rgba(255, 255, 255, 44%);
+
+  margin-bottom: 0;
+  font-size: 14px;
+  font-family: "poppins";
+  font-weight: 300;
+}
+@media only screen and (max-width: 992px) {
+}
+@media (max-width: 768.98px) {
+  .backgroundclr {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-conntent {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+}

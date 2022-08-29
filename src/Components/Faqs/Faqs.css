@@ -1,0 +1,150 @@
+.faqs_title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 25px;
+}
+.faqs_line {
+  width: 80px;
+  height: 2px;
+  background: #02c4b7;
+  margin: 0 auto;
+}
+.faqs {
+  text-align: center;
+  padding-top: 60px;
+  background: #f4f5f9;
+  margin-top: 90px;
+}
+.faqsTabs_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-tabs {
+  text-decoration: none;
+}
+.list_items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.scendlookortho_data {
+  display: flex;
+  width: 100%;
+  padding-top: 55px;
+  padding-left: 60px;
+  padding-right: 60px;
+  flex-wrap: wrap;
+}
+.medical_second_opinions {
+  width: 50%;
+  padding: 0 40px;
+}
+.orthopedic_sence {
+  width: 50%;
+  padding: 0 40px;
+}
+.heading_scondortho {
+  text-align: left;
+  padding-bottom: 20px;
+  font-size: 13pt;
+  font-family: popi;
+  font-weight: 600;
+  color: #404040;
+}
+.orthopara {
+  text-align: left;
+}
+.faqs_heading {
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+
+.faqs_line {
+  margin-bottom: 20px;
+}
+.list_items .itemButton {
+  background-color: transparent;
+  border: none;
+  padding: 11px 25px;
+  color: black;
+  border-radius: 25px;
+}
+.list_items .itemButtonActive {
+  background-color: #ff6e00;
+  border: 1px solid #ff6e00;
+  color: #fff;
+  border-radius: 25px;
+  padding: 11px 25px;
+}
+.itemButton:hover {
+  background: #ff6e00;
+  /* border: 1px solid rgb(255, 255, 255); */
+  -webkit-transition: all 0.3s ease;
+  color: #fff;
+}
+.faqs::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -40px;
+  margin: 0 auto;
+  width: 289px;
+  height: 289px;
+  background: rgba(2, 196, 183, 15%);
+  border-radius: 50%;
+  z-index: -1;
+}
+.absolute_team_tag {
+  border-radius: 50%;
+  width: 289px;
+  height: 289px;
+  background: rgba(2, 196, 183, 15%);
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -250px;
+}
+@media (max-width: 768.98px) {
+  .scendlookortho_data {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media (min-width: 320px) {
+  .scendlookortho_data {
+    flex-direction: column;
+  }
+  .medical_second_opinions {
+    width: 100%;
+  }
+  .orthopedic_sence {
+    width: 100%;
+  }
+}
+@media (max-width: 576.98px) {
+  .faqs_title {
+    font-size: 20px;
+  }
+  .faqs_heading {
+    padding-bottom: 20px;
+    font-size: 10px;
+    font-family: "popi";
+  }
+  .list_items .itemButton {
+    font-size: 13px;
+    font-family: popi;
+  }
+  .our_heading {
+    font-size: 20px;
+  }
+  .our_team_heading {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
